@@ -3,9 +3,9 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 // Internal modules
-const Manager = require('./lib/Manager');
-const Engineer = require('./lib/Engineer');
-const Intern = require('./lib/Intern');
+const manager = require('./lib/Manager');
+const engineer = require('./lib/Engineer');
+const intern = require('./lib/Intern');
 
 const questions = require('./questions');
 const render = require('./lib/htmlRenderer');
@@ -22,7 +22,7 @@ async function createManager() {
     let managerResponses = await inquirer.prompt(questions.manager);
 
     // Create new object from class and add to employee array
-    let newManager = new Manager
+    let newManager = new manager
         (managerResponses.mgrName,
             managerResponses.mgrId,
             managerResponses.mgrEmail,
@@ -62,7 +62,7 @@ async function createEmployee() {
     switch (employeeRole.empRole) {
         case 'Engineer':
             let engResponses = await inquirer.prompt(questions.engineer);
-            let newEngineer = new Engineer
+            let newEngineer = new engineer
                 (engResponses.engName,
                     engResponses.engId,
                     engResponses.engEmail,
@@ -73,7 +73,7 @@ async function createEmployee() {
             break;
         case 'Intern':
             let internResponses = await inquirer.prompt(questions.intern);
-            let newIntern = new Intern
+            let newIntern = new intern
                 (internResponses.internName,
                     internResponses.internId,
                     internResponses.internEmail,
