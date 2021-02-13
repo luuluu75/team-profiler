@@ -1,7 +1,7 @@
 const managerQuestions = [
     {
         type: 'input',
-        message: "This application will generate an HTML page for your software engineering team. An engineering team consists of a manager and any number of engineers & interns. First, what is your manager's name?",
+        message: "This application will generate an HTML page for your software engineering team. An engineering team consists of a manager and any number of engineers & testers. First, what is your manager's name?",
         name: 'mgrName',
         default: 'James Bond',
         validate: function (answer) {
@@ -61,7 +61,7 @@ const confirmEmployee = [
 const employeeType = [
     {
         type: 'list',
-        message: "Would you like to add an Engineer or Intern to the team?",
+        message: "Would you like to add an Engineer or Tester to the team?",
         choices: ['Engineer', 'Intern'],
         name: 'empRole'
     }
