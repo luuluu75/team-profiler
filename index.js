@@ -3,9 +3,9 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 // Internal modules
-const manager = require('./lib/Manager');
-const engineer = require('./lib/Engineer');
-const intern = require('./lib/Intern');
+const manager = require('./lib/manager');
+const engineer = require('./lib/engineer');
+const intern = require('./lib/intern');
 
 const questions = require('./questions');
 const render = require('./lib/htmlRenderer');
