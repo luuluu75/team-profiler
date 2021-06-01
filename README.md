@@ -8,11 +8,6 @@
    ## Description 
    Team Profiler is a command prompt tool designed to capture and display team member profiles. 
  
-   User Story
-   
-   As a social co-ordinator
-   I want to view the attendees availability
-   So that I can schedule an event that all can attend
 
    ## Table of Contents
    * [Installation](#installation)
