@@ -12,7 +12,7 @@ test("Can set name via constructor arguments", () => {
 });
 
 test("Can set id via constructor argument", () => {
-  const testValue = 08;
+  const testValue = 15;
   const e = new Employee("Foo", testValue);
   expect(e.id).toBe(testValue);
 });
@@ -30,7 +30,7 @@ test("Can get name via getName()", () => {
 });
 
 test("Can get id via getId()", () => {
-  const testValue = 08;
+  const testValue = 10;
   const e = new Employee("Foo", testValue);
   expect(e.getId()).toBe(testValue);
 });

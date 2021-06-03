@@ -1,0 +1,13 @@
+body{
+    background-color: lightseagreen (75, 116, 129);
+    font-family: 'Quicksand', sans-serif;
+}
+.employee-card{
+    margin: 3px;
+    display: block;
+}
+.team-heading{
+    font-family: 'Quicksand', serif;
+    background-color: teal;
+    color: white;
+}
