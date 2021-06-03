@@ -17,11 +17,13 @@
    ## Installation
    
    *Steps required to install project and how to get the development environment running:*
-   
-   In terminal, run:
-   * node server.js
+   To execute tests:
+   * run npm test
+   * 
+   In start application:
+   * npm start
    * answer prompt questions
-   * open index.html file in browser
+   * open lib/main.html file in browser
     
    
    ## Usage 
