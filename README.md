@@ -17,9 +17,10 @@
    ## Installation
    
    *Steps required to install project and how to get the development environment running:*
-   To execute tests:
+  
+  To execute tests:
    * run npm test
-   * 
+   
    In start application:
    * npm start
    * answer prompt questions
